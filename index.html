@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario Oficial</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/arrayAutos.js"></script>
+    <script src="JS/auto.clase.js"></script>
+   
+</head>
+<body>
+    <h1>Bienvenido a nuestro concesionario</h1>
+
+    <p>Nuestra plataforma de administración de vehículos te brinda las herramientas necesarias para simplificar y optimizar tus operaciones. Desde el seguimiento de mantenimiento y reparaciones hasta el control de inventario y ventas, estamos aquí para ayudarte en cada paso del camino.</p>
+
+    <main>
+        <img src="Images/autos.png" width="1024">
+    </main>
+
+    <article class="container">
+        <div class="parent">
+            <h4>Administración de vehículos</h4>
+            <footer>
+                <button role="button" class="button" onclick="listarAuto()">LISTAR AUTOS</button>
+                <button role="button" class="button" onclick="agregarAuto()">AGREGAR AUTO</button>
+                <button role="button" class="button" onclick="buscarAuto()">BUSCAR AUTO</button>
+                <button role="button" class="button" onclick="ContarStock()">STOCK POR MARCA</button>
+                <button role="button" class="button" onclick="quitarAuto()">QUITAR AUTO</button>
+            </footer>
+         </div>
+    </article>
+</body>
+</html>
